@@ -1,0 +1,110 @@
+*{
+    font-family: 'Bubbler One', sans-serif;  
+}
+
+/*  Common  */
+
+.header{
+    color: #fff;
+    background-color: black;
+}
+
+.breadcrumb {
+    width: 100%;
+    margin-top: 60px;
+  }
+  
+/* header */
+.header-account{
+    text-align: center;
+    font-size:xx-large;
+    font-weight: bolder;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.header-account-setting{
+    font-size:x-large;
+    font-weight: bolder;
+    padding-top: 40px;
+    color: #F77F00;
+}
+.header-profile{
+    text-align: center;
+    font-size:x-large;
+    font-weight: bolder;
+    padding-top: 40px;
+    color: #F77F00;
+}
+.header-order{
+    height: 2px;
+    background-color: #F77F00 !important;
+    margin: 30px 0;
+    position: relative;
+    text-align: center;
+}
+.header-order span{
+    color: #F77F00;
+    padding: 20px;
+    background-color: #fff;
+    top: -20px;
+    position: relative;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+/* account setting */
+.account-setting-page{
+    border-left: solid 2px #72DDF7;
+    padding-left: 30px;
+    font-weight: bolder;
+}
+.content-account-setting{
+    line-height: 40px;
+}
+.content-account-setting svg{
+    color: #72DDF7;
+}
+a:link, a:visited , a:hover, a:active{
+    text-decoration: none !important;
+}
+/* profile */
+.profile-page{ 
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: dashed 2px #72DDF7;
+}
+#useprofile{
+    font-style:italic;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+#profile-table{
+    margin-left: auto; 
+    margin-right: auto;
+}
+table#profile-table th, td, tr{
+    padding-right: 30px; 
+    padding-top: 15px;
+}
+table#profile-table td{
+    border-bottom: solid 0.5px black;
+}
+
+/* order */
+.order-page{
+    margin-top: 100px;
+}
+.content-order{
+   margin-top: 60px;
+   margin-bottom: 60px;
+}
+table#order-table tr:nth-child(even) {  
+    background-color: #DBF7FD;  
+}  
+table#order-table tr:nth-child(odd) {  
+    background-color: white;
+}  
+table#order-table th {  
+font-size: large;
+border-bottom: black solid 2px;
+} 

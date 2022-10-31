@@ -1,0 +1,101 @@
+/* ----------Common--------- */
+.header {
+  background-color: #000;
+}
+.breadcrumb {
+  width: 100%;
+  margin-top: 60px;
+  font-family: "Bubbler One", sans-serif;
+}
+/* ----------EndCommon--------- */
+.signin-container {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 700;
+  font-family: "Bubbler One", sans-serif;
+  margin: 100px auto;
+}
+
+label {
+  display: block;
+  margin: 15px 0;
+}
+.heading {
+  margin-bottom: 50px;
+}
+.text-box {
+  width: 50%;
+  padding: 12px 20px;
+  margin: auto;
+  display: block;
+  box-sizing: border-box;
+}
+.btn {
+  width: 50%;
+}
+#btnsignup {
+  color: #72ddf7;
+  background-color: #fff;
+  border: solid 1px #72ddf7;
+}
+.btn:hover {
+  background-color: red;
+  border-radius: 5px;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s ease;
+}
+
+.container {
+  padding: 20px;
+}
+.form-group {
+  margin-left: 50px;
+  margin-top: 13px;
+  position: relative;
+}
+
+.text-box {
+  height: 29px;
+  left: 0px;
+  background: none;
+  border: 0;
+  border-bottom: 1.5px solid #000;
+  box-sizing: border-box;
+  border-radius: 0%;
+  font-size: 13px;
+  background-color: #fff;
+  padding: 5px;
+  font-family: "Bubbler One", sans-serif;
+}
+input:focus {
+  outline: none;
+}
+
+.form-group label {
+  color: #000;
+  font-family: "optima";
+}
+
+.text-box:focus {
+  border-color: #fca311;
+  box-shadow: none;
+}
+
+.btn {
+  background-color: #fca311;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 992px) {
+  .text-box {
+    width: 80%;
+  }
+}
+
+/* form i {
+  margin-left: -500 px;
+  cursor: pointer;
+} */

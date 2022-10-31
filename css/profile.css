@@ -1,0 +1,80 @@
+
+/* ----------Common--------- */
+.header{
+    background-color: #000;
+  }
+/* ----------EndCommon--------- */
+.profile-container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: optima;
+    font-weight: 700;
+    margin: 100px auto;
+}
+
+.profile-container label{
+    display: block;
+    margin: 15px 0;
+    text-align: center;
+}
+.heading{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.text-box{
+    width: 50%;
+    padding: 12px 20px;
+    margin: auto;
+    display: block;
+    box-sizing: border-box;
+}
+.sex-container{
+    width: 50%;
+    margin: auto;
+    flex-direction: row;
+    padding-top: 23px;   
+    text-align: center;
+}
+.btn{
+    width: 50%;
+    margin-top: 100px;
+    background-color: #FCA311;
+    color: #fff;
+}
+
+.container {
+    padding: 20px;
+}
+
+.text-box{
+    height: 29px;
+    left:0px;
+    border: 0;
+    border-bottom: 1.5px solid #000;
+    box-sizing: border-box;
+    border-radius: 0%;
+    font-size: 13px;
+    background-color: #fff;
+    padding: 5px;
+}
+input:focus {
+    outline:none;
+}
+
+.text-box:focus{
+    border-color: #FCA311;
+    box-shadow: none;
+}
+
+
+@media (max-width:992px ) {
+.text-box{
+    width: 80%;
+}
+.sex-container{
+    width: 80%;
+}
+}
+
+

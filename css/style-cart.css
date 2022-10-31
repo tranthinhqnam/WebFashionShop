@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bubbler One", sans-serif;
+}
+
+.row {
+  margin: 0;
+}
+.breadcrumb {
+  width: 100%;
+  margin-top: 60px;
+}
+
+.header {
+  background-color: #000;
+}
+
+h2 {
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+p {
+  width: 100%;
+  display: inline-block;
+  justify-content: center;
+}
+/* p:after{
+    content: " ";
+    display: block;
+    width: 100px;
+    height: 3px;
+    background-color: black;
+    margin-top: 30px;
+    margin: 0 auto;
+} */
+
+.taskbar {
+  width: 100%;
+  background-color: none;
+  height: 30px;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+.del{
+    border: 0;
+    background-color: #fff;
+}
+.content {
+  text-align: center;
+  background-color: none;
+  padding: 20px 5%;
+}
+
+.info_product {
+  width: 100%;
+  height: 300px;
+  background-color: none;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000;
+  position: relative;
+}
+
+.total {
+  width: 100%;
+  margin: 10px 0;
+  height: 60px;
+  align-content: center;
+}
+#btn1:hover {
+  background-color: #72ddf7;
+  color: #fff;
+}
+#btn1 {
+  height: 50px;
+  width: auto;
+  border: 1px solid #72ddf7;
+  color: #72ddf7;
+  font-weight: 700;
+  background-color: #fff;
+}
+/* #btn2:hover{background-color:#FCA311;border: none;} */
+
+#btn2 {
+  border: none;
+  z-index: 1;
+}
+#btn2:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  background-color: #fca311;
+  border-radius: 5px;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s ease;
+}
+#btn2:hover {
+  color: #fff;
+}
+#btn2:hover:after {
+  left: 0;
+  width: 100%;
+}
+#btn2:active {
+  top: 2px;
+}
+
+#btnUpdate{
+  
+  margin-left: 20px;
+  width: 60px;
+  height: 25px;
+  border: 1px solid #FCA311;
+  border-radius: 5px;
+  color: #FCA311;
+  background-color: #fff;
+}
+
+#btnUpdate:hover{
+margin-left: 20px;
+background-color: #FCA311;
+border-radius: 5px;
+box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+7px 7px 20px 0px rgba(0,0,0,.1),
+4px 4px 5px 0px rgba(0,0,0,.1);
+color: #fff;
+}
+
+.count-title {
+  padding: 10px;
+  background-color: white;
+  height: 50px;
+  border: solid black 1px;
+  border-right: none;
+  font-weight: bolder;
+  display: flex;
+  justify-content: flex-start;
+}
+.count {
+  padding: 10px;
+  background-color: white;
+  font-weight: bolder;
+  border: solid black 1px;
+  display: flex;
+  justify-content: flex-end;
+  min-width: 376px;
+}
+.payment {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+/* ==========Blogspot======== */
+.buttons_added {
+  opacity: 1;
+  display: inline-block;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  white-space: nowrap;
+  vertical-align: top;
+  justify-content: center;
+}
+.is-form {
+  overflow: hidden;
+  position: relative;
+  background-color: #f9f9f9;
+  height: 2.2rem;
+  width: 1.9rem;
+  padding: 0;
+  text-shadow: 1px 1px 1px #fff;
+  border: 1px solid #ddd;
+}
+.is-form:focus,
+.input-text:focus {
+  outline: none;
+}
+.is-form.minus {
+  border-radius: 4px 0 0 4px;
+}
+.is-form.plus {
+  border-radius: 0 4px 4px 0;
+}
+.input-qty {
+  background-color: #fff;
+  height: 2.2rem;
+  text-align: center;
+  font-size: 1rem;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  border-left: 0;
+  border-right: 0;
+  padding: 5px;
+}
+.input-qty::-webkit-outer-spin-button,
+.input-qty::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.total {
+  justify-content: space-between;
+}
+
+@media (max-width: 576px) {
+  .taskbar {
+    display: none;
+  }
+  .info_product .img1 {
+    width: 50px;
+  }
+
+  .unit-price {
+    display: none;
+  }
+  .buttons_added,
+  .into-money,
+  .name_size {
+    width: 100px;
+  }
+  .delete {
+    width: 20px;
+  }
+  .continue {
+    margin: 20px;
+  }
+  .payment {
+    margin-top: 50px;
+  }
+}
